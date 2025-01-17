@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.task-input{
+    background-color: beige;
+    height: 20%;
+    width: 60%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.task-input input{
+    width: 80%;
+    height: 35px; 
+    padding: 15px;
+   font-size: medium;
+}
+.task-input button{
+    height: 40px;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(99, 99, 255);
+    font-weight: bold;
+}
+.tasks{
+    height: 70%;
+    width: 80%; 
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+ 
+}
+.task-div{
+    height:40px;
+    width: 500px;
+    background-color: rgb(0, 38, 255);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 5px;
+    font-size: larger;
+    font-weight: 300;
+}
+#delete{
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    /* margin-left:200px ; */
+}
+#edit{
+    background-color: rgb(20, 214, 182);
+    color: white;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    /* margin-right: 10px; */
+}
+
+
+    
